@@ -1,0 +1,39 @@
+* {
+  font-family: 'Poor Story', cursive;
+  color: aliceblue;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+.panels {
+  flex: 1;
+  background-color: salmon;
+  display: flex;
+  height: 100vh;
+}
+
+.panel{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-size: cover;
+  background-position: bottom;
+}
+.first{
+  background-image: url('../images/an-tran-qWQGk5mdVBU-unsplash.jpg');
+}
+.second{
+  background-image: url('../images/daniel-sessler-BurTAJlbsRo-unsplash.jpg');
+}
+.third{
+  background-image: url('../images/jared-bell-V0N7to1BC-w-unsplash.jpg');
+}
+.fourth{
+  background-image: url('../images/mathew-schwartz-3VoObnPe-tI-unsplash.jpg');
+}
+.fifth{
+  background-image: url('../images/nathan-anderson-kujXUuh1X0o-unsplash.jpg');
+}
