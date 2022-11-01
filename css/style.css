@@ -53,6 +53,10 @@
   transform: translateY(0%);
 }
 
+p:hover {
+  cursor: pointer;
+}
+
 .first{
   background-image: url('../images/an-tran-qWQGk5mdVBU-unsplash.jpg');
 }
