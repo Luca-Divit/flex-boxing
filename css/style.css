@@ -1,7 +1,8 @@
 * {
   font-family: 'Poor Story', cursive;
   color: aliceblue;
-  font-size: 1.2em;
+  font-size: 1.29em;
+  text-shadow: 0 0 3px black;
   margin: 0;
   padding: 0;
 }
@@ -11,9 +12,10 @@
   background-color: salmon;
   display: flex;
   height: 100vh;
+  overflow: hidden;
 }
 
-.panel{
+.panel {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -21,7 +23,36 @@
   align-items: center;
   background-size: cover;
   background-position: bottom;
+  transition: all 2s;
 }
+
+.panel > p:first-child {
+  transform: translateY(-300%);
+  transition: all 2s;
+}
+
+.panel > p:last-child {
+  transform: translateY(300%);
+  transition: all 2s;
+}
+
+.open {
+  flex: 2;
+}
+
+.open p {
+  transform: scale(1.5);
+  transition: all 2s;
+}
+
+.open > p:first-child {
+  transform: translateY(0%);
+}
+
+.open > p:last-child {
+  transform: translateY(0%);
+}
+
 .first{
   background-image: url('../images/an-tran-qWQGk5mdVBU-unsplash.jpg');
 }
